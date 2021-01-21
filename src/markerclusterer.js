@@ -254,7 +254,7 @@ ClusterIcon.prototype.show = function () {
           ((-1 * spriteV) + this.height_) + "px, " + (-1 * spriteH) + "px);";
     }
     img += "'>";
-    this.div_.innerHTML = img + "<div style='" +
+    this.div_.innerHTML = img + "<div class='zoom'>Click to zoom on Events</div><div style='" +
         "position: absolute;" +
         "top: " + this.anchorText_[0] + "px;" +
         "left: " + this.anchorText_[1] + "px;" +
